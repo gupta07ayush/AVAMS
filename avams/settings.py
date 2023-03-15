@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-(mqrynk9nvgel@itshsbz)lrm$3sl5cg9_$--q!^obzyn#@0l2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1',"https://gupta07ayush.github.io/AVAMS/"]
 
 
 # Application definition
