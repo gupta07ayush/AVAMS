@@ -6,7 +6,7 @@ from django.contrib import messages
 
 #password for user is admin admin
 #ashish ashish
-#silver silver
+#silver ssiillvv
 #priyanshu priyanshu
 
 
@@ -19,11 +19,7 @@ def index(request):
     }
     return render(request,'index.html',context)
 
-def login(request):
-    return render(request,'login.html')
 
-def logout(request):
-    return render(request,'index.html')
 
 def about(request):
     return render(request,'about.html')
