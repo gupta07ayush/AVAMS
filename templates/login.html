@@ -1,12 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-</head>
-<body>
-    Login Page
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block title %}Login{% endblock title %}
+
+{% block body %}
+
+    <form class="form-signin  text-white my-5 " method="post" action="/login">{% csrf_token %}
+      <img class="mb-4 ml-5 pl-2" src="/static/img/logo.jpg" alt="" width="172" height="172">
+     
+      <h1 class="h3 mb-3 font-weight-normal text-center">Please sign in</h1>
+      <label for="inputEmail" class="sr-only">Username</label>
+      <input type="text" id="inputEmail" name="username" class="form-control " placeholder="Enter your Username" required autofocus>
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+      </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      <p class="mt-5 mb-3 text-muted copyright">&copy;AVAMS 2023-2024</p>
+    </form>
+
+    <div class="gupta">
+        <div class="child bounce"><h3>Ayush</h3></div>
+      </div>
+
+      <div class="silver">
+        
+      </div>
+
+{% endblock body %}
