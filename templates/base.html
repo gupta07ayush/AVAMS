@@ -95,8 +95,19 @@
   background-color: #FF1493;
 }
 
-
-
+#name{
+  background-color: transparent;
+  color:white;  
+}
+#name:hover{
+  background-color: black;
+  color:yellowgreen;
+  font-size: larger;
+}
+#name:active{
+  box-shadow: 2px 2px 5px #fc894d;
+  border-color: yellowgreen;
+}
 
 .jumbotron {
 background-image: url("/static/img/img2.jpg");  
@@ -123,7 +134,7 @@ background-size:cover;
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
         <nav class="navbar navbar-dark bg-dark">
   <a class="navbar-brand navbar-dark bg-dark mx-0 my-0 px-0 py-0" href="/" target="_blank">
-    <img src="/static/img/logo.jpg" width="90" height="90" class="d-inline-block " alt="logo">
+    <img src="/static/img/logo.jpg" width="80" height="80" class="d-inline-block " alt="logo">
     <strong>AVAMS</strong>
   </a>
 </nav>
@@ -131,15 +142,15 @@ background-size:cover;
           <span class="navbar-toggler-icon"></span>
         </button>
       
-        <div class="collapse navbar-collapse px-5 mx-1 " id="navbarSupportedContent" style="font-size: 25px; text-decoration:none" >
+        <div class="collapse navbar-collapse px-4 mx-0 " id="navbarSupportedContent" style="font-size: 20px; text-decoration:none" >
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active px-5" >
               <a class="nav-link" href="/">HOME <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item px-5">
+            <li class="nav-item px-4">
               <a class="nav-link " href="/about" >ABOUT US</a>
             </li>
-            <li class="nav-item dropdown px-5">
+            <li class="nav-item dropdown px-4">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 SERVICES
               </a>
@@ -148,13 +159,13 @@ background-size:cover;
                 <a class="dropdown-item" href="#">Web Development</a>
                 <a class="dropdown-item" href="#">Blockchain Development</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item bg-dark text-white" href="/pcb">PCB Designing</a>
+                <a class="dropdown-item bg-dark text-white" href="/pcb" target="_blank">PCB Designing</a>
               </div>
             </li>
-            <li class="nav-item px-5">
+            <li class="nav-item px-4">
                 <a class="nav-link" href="/contact">CONTACT</a>
               </li>
-            <li class="nav-item px-5">
+            <li class="nav-item px-4">
                 <a class="nav-link" href="/logout">Logout</a>
               </li>
           </ul>
