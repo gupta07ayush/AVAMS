@@ -125,16 +125,14 @@ background-size:cover;
 
     <title> {% block title %}{% endblock title %} • AVAMS</title>
   </head>
+  
   <body background="/static/img/background.jpg" style="background-color:rgb(42, 156, 118);">
     
-
 <!-- Navigation Bar from bootstrap -->
-
-    
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
-        <nav class="navbar navbar-dark bg-dark">
-  <a class="navbar-brand navbar-dark bg-dark mx-0 my-0 px-0 py-0" href="/" target="_blank">
-    <img src="/static/img/logo.jpg" width="80" height="80" class="d-inline-block " alt="logo">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark pb-1" >
+        <nav class="navbar navbar-dark bg-dark"">
+  <a class="navbar-brand navbar-dark bg-dark mx-0 my-0 px-0 py-0" href="/" target="_blank" >
+    <img src="/static/img/logo.jpg" width="25" height="28" class="d-inline-block " alt="logo">
     <strong>AVAMS</strong>
   </a>
 </nav>
@@ -154,10 +152,12 @@ background-size:cover;
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 SERVICES
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="/services">Software Development</a>
-                <a class="dropdown-item" href="#">Web Development</a>
-                <a class="dropdown-item" href="#">Blockchain Development</a>
+              <div class="dropdown-menu  bg-dark text-white"  aria-labelledby="navbarDropdown">
+                <a class="dropdown-item bg-dark text-white"  href="/services">Software Development</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item bg-dark text-white"  href="#">Web Development</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item bg-dark text-white"  href="#">Blockchain Development</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item bg-dark text-white" href="/pcb" target="_blank">PCB Designing</a>
               </div>

@@ -5,7 +5,8 @@
 {% block body %}
 
     <form class="form-signin  text-white my-5 " method="post" action="/login">{% csrf_token %}
-      <img class="mb-4 ml-5 pl-2" src="/static/img/logo.jpg" alt="" width="172" height="172">
+    <a href="/">
+      <img class="mb-4 ml-5 pl-2 mt-5 pt-3 pl-3 ml-2" src="/static/img/logo.jpg" alt="" width="172" height="172"> </a>
      
       <h1 class="h3 mb-3 font-weight-normal text-center">Please sign in</h1>
       <label for="inputEmail" class="sr-only">Username</label>
@@ -21,12 +22,6 @@
       <p class="mt-5 mb-3 text-muted copyright">&copy;AVAMS 2023-2024</p>
     </form>
 
-    <div class="gupta">
-        <div class="child bounce"><h3>Ayush</h3></div>
-      </div>
-
-      <div class="silver">
-        
-      </div>
+  
 
 {% endblock body %}
