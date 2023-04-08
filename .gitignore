@@ -1,9 +1,20 @@
-__pychache__/
+
 *.pyclisted
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
+.gitignore
+
+avams/__pycache__/urls.cpython-311.pyc
+db.sqlite3
+home/__pycache__/urls.cpython-311.pyc
+home/__pycache__/views.cpython-311.pyc
+
+
+
 
 # C extensions
 *.so
